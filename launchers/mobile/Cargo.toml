@@ -1,0 +1,13 @@
+[package]
+name = "mobile_bevy_android"
+version = "0.1.0"
+edition = "2021"
+workspace = "../../"
+
+[lib]
+name = "game"
+crate-type = ["staticlib", "cdylib"]
+
+[dependencies]
+bevy.workspace = true
+bevy_android.path = "../../"
