@@ -41,10 +41,12 @@ on:
   pull_request:
     branches:
       - main
+      - master
       - dev
   push:
     branches:
       - main
+      - master
     paths-ignore:
       - ".github/**"
       - "**/Makefile.toml"
